@@ -19,21 +19,21 @@
     },
     {
         "id": 4,
+        "name_uz": "Qashqadaryo viloyati",
+        "name_uzc": "Қашқадарё вилояти",
+        "name_ru": "Кашкадарьинская область"
+    },
+    {
+        "id": 5,
         "name_uz": "Navoiy viloyati",
         "name_uzc": "Навоий вилояти",
         "name_ru": "Навоийская область"
     },
     {
-        "id": 5,
+        "id": 6,
         "name_uz": "Namangan viloyati",
         "name_uzc": "Наманган вилояти",
         "name_ru": "Наманганская область"
-    },
-    {
-        "id": 6,
-        "name_uz": "Qashqadaryo viloyati",
-        "name_uzc": "Қашадарё вилояти",
-        "name_ru": "Кашкадарьинская область"
     },
     {
         "id": 7,

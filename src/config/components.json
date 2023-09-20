@@ -21,7 +21,7 @@
             "options": [
                 {
                     "label": "Option 1",
-                    "value": "option1"
+                    "value": "opt1"
                 }
             ]
         }
@@ -33,7 +33,7 @@
             "options": [
                 {
                     "label": "Option 1",
-                    "value": "option1"
+                    "value": "opt1"
                 }
             ]
         }
@@ -42,7 +42,7 @@
         "type": "textarea",
         "label": "Textarea",
         "attrs": {
-            "placeholder": "Textarea Letters",
+            "placeholder": "Textarea...",
             "rows":2
         }
     }

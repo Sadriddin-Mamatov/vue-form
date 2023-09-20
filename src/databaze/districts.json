@@ -260,231 +260,231 @@
     },
     {
         "id": 38,
-        "region_id": 6,
+        "region_id": 4,
         "name_uz": "G'uzor tumani",
         "name_uzc": "Ғузор тумани",
         "name_ru": "Гузарский район"
     },
     {
         "id": 39,
-        "region_id": 6,
+        "region_id": 4,
         "name_uz": "Dehqonobod tumani",
         "name_uzc": "Деҳқонобод тумани",
         "name_ru": "Дехканабадский район"
     },
     {
         "id": 40,
-        "region_id": 6,
+        "region_id": 4,
         "name_uz": "Qamashi tumani",
         "name_uzc": "Қамаши тумани",
         "name_ru": "Камашинский район"
     },
     {
         "id": 41,
-        "region_id": 6,
+        "region_id": 4,
         "name_uz": "Qarshi tumani",
         "name_uzc": "Қарши тумани",
         "name_ru": "Каршинский район"
     },
     {
         "id": 42,
-        "region_id": 6,
+        "region_id": 4,
         "name_uz": "Koson tumani",
         "name_uzc": "Косон тумани",
         "name_ru": "Касанский район"
     },
     {
         "id": 43,
-        "region_id": 6,
+        "region_id": 4,
         "name_uz": "Kitob tumani",
         "name_uzc": "Китоб тумани",
         "name_ru": "Китабский район"
     },
     {
         "id": 44,
-        "region_id": 6,
+        "region_id": 4,
         "name_uz": "Mirishkor tumani",
         "name_uzc": "Миришкор тумани",
         "name_ru": "Миришкорский район"
     },
     {
         "id": 45,
-        "region_id": 6,
+        "region_id": 4,
         "name_uz": "Muborak tumani",
         "name_uzc": "Муборак тумани",
         "name_ru": "Мубарекский район"
     },
     {
         "id": 46,
-        "region_id": 6,
+        "region_id": 4,
         "name_uz": "Nishon tumani",
         "name_uzc": "Нишон тумани",
         "name_ru": "Нишанский район"
     },
     {
         "id": 47,
-        "region_id": 6,
+        "region_id": 4,
         "name_uz": "Kasbi tumani",
         "name_uzc": "Касби тумани",
         "name_ru": "Касбинский район"
     },
     {
         "id": 48,
-        "region_id": 6,
+        "region_id": 4,
         "name_uz": "Ko'kdala tumani",
         "name_uzc": "Кўкдала тумани",
         "name_ru": "Кукдалинский район"
     },
     {
         "id": 49,
-        "region_id": 6,
+        "region_id": 4,
         "name_uz": "Chiroqchi tumani",
         "name_uzc": "Чироқчи тумани",
         "name_ru": "Чиракчинский район"
     },
     {
         "id": 50,
-        "region_id": 6,
+        "region_id": 4,
         "name_uz": "Shahrisabz tumani",
         "name_uzc": "Шаҳрисабз тумани",
         "name_ru": "Шахрисабзский район"
     },
     {
         "id": 51,
-        "region_id": 6,
+        "region_id": 4,
         "name_uz": "Yakkabog' tumani",
         "name_uzc": "Яккабоғ тумани",
         "name_ru": "Яккабагский район"
     },
     {
         "id": 52,
-        "region_id": 4,
+        "region_id": 5,
         "name_uz": "Konimex tumani",
         "name_uzc": "Конимех тумани",
         "name_ru": "Канимехский район"
     },
     {
         "id": 53,
-        "region_id": 4,
+        "region_id": 5,
         "name_uz": "Qiziltepa tumani",
         "name_uzc": "Қизилтепа тумани",
         "name_ru": "Кызылтепинский район"
     },
     {
         "id": 54,
-        "region_id": 4,
+        "region_id": 5,
         "name_uz": "Navbahor tumani",
         "name_uzc": "Навбаҳор тумани",
         "name_ru": "Навбахорский район"
     },
     {
         "id": 55,
-        "region_id": 4,
+        "region_id": 5,
         "name_uz": "Karmana tumani",
         "name_uzc": "Кармана тумани",
         "name_ru": "Карманинский район"
     },
     {
         "id": 56,
-        "region_id": 4,
+        "region_id": 5,
         "name_uz": "Nurota tumani",
         "name_uzc": "Нурота тумани",
         "name_ru": "Нуратинский район"
     },
     {
         "id": 57,
-        "region_id": 4,
+        "region_id": 5,
         "name_uz": "Tomdi tumani",
         "name_uzc": "Томди тумани",
         "name_ru": "Тамдынский район"
     },
     {
         "id": 58,
-        "region_id": 4,
+        "region_id": 5,
         "name_uz": "Uchquduq tumani",
         "name_uzc": "Учқудуқ тумани",
         "name_ru": "Учкудукский район"
     },
     {
         "id": 59,
-        "region_id": 4,
+        "region_id": 5,
         "name_uz": "Xatirchi tumani",
         "name_uzc": "Хатирчи тумани",
         "name_ru": "Хатырчинский район"
     },
     {
         "id": 60,
-        "region_id": 4,
+        "region_id": 6,
         "name_uz": "Mingbuloq tumani",
         "name_uzc": "Мингбулоқ тумани",
         "name_ru": "Мингбулакский pайон"
     },
     {
         "id": 61,
-        "region_id": 5,
+        "region_id": 6,
         "name_uz": "Kosonsoy tumani",
         "name_uzc": "Косонсой тумани",
         "name_ru": "Касансайский район"
     },
     {
         "id": 62,
-        "region_id": 5,
+        "region_id": 6,
         "name_uz": "Namangan tumani",
         "name_uzc": "Наманган тумани",
         "name_ru": "Наманганский район"
     },
     {
         "id": 63,
-        "region_id": 5,
+        "region_id": 6,
         "name_uz": "Norin tumani",
         "name_uzc": "Норин тумани",
         "name_ru": "Нарынский район"
     },
     {
         "id": 64,
-        "region_id": 5,
+        "region_id": 6,
         "name_uz": "Pop tumani",
         "name_uzc": "Поп тумани",
         "name_ru": "Папский район"
     },
     {
         "id": 65,
-        "region_id": 5,
+        "region_id": 6,
         "name_uz": "To'raqo'rg'on tumani",
         "name_uzc": "Тўрақўрғон тумани",
         "name_ru": "Туракурганский район"
     },
     {
         "id": 66,
-        "region_id": 5,
+        "region_id": 6,
         "name_uz": "Uychi tumani",
         "name_uzc": "Уйчи тумани",
         "name_ru": "Уйчинский район"
     },
     {
         "id": 67,
-        "region_id": 5,
+        "region_id": 6,
         "name_uz": "Uchqo'rg'on tumani",
         "name_uzc": "Учқўрғон тумани",
         "name_ru": "Учкурганский район"
     },
     {
         "id": 68,
-        "region_id": 5,
+        "region_id": 6,
         "name_uz": "Chortoq tumani",
         "name_uzc": "Чортоқ тумани",
         "name_ru": "Чартакский район"
     },
     {
         "id": 69,
-        "region_id": 5,
+        "region_id": 6,
         "name_uz": "Chust tumani",
         "name_uzc": "Чуст тумани",
         "name_ru": "Чустский район"
     },
     {
         "id": 70,
-        "region_id": 5,
+        "region_id": 6,
         "name_uz": "Yangiqo'rg'on tumani",
         "name_uzc": "Янгиқўрғон тумани",
         "name_ru": "Янгикурганский район"

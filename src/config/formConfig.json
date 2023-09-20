@@ -3,10 +3,10 @@
     {
         "type": "text",
         "label": "Last name",
-        "name": "Lastname",
+        "name": "lastname",
         "order":2,
         "attrs": {
-            "placeholder": "Enter your last name",
+            "placeholder": "Last name",
             "class":"col-6"
         },
         "validation": {
@@ -16,11 +16,11 @@
     {
         "type": "text",
         "label": "Your Email",
-        "name": "Email",
+        "name": "email",
         "order":3,
         "attrs": {
-            "placeholder": "Enter your email",
-            "class":"col-6"
+            "placeholder": "Your Email",
+            "class":"col-12"
         },
         "validation": {
             "required": true,
@@ -30,10 +30,10 @@
     {
         "type": "text",
         "label": "First name",
-        "name": "Firstname",
+        "name": "firstname",
         "order":1,
         "attrs": {
-            "placeholder": "Enter your first name",
+            "placeholder": "First name",
             "class":"col-6"
         },
         "validation": {
@@ -42,15 +42,15 @@
     },
     {
         "type": "text",
-        "label": "Enter your phone number",
-        "name": "Phone",
+        "label": "Your phone Number",
+        "name": "phone",
         "order":4,
         "attrs": {
             "placeholder": "Your Contact",
             "mask":"### (##) ### ## ##",
-            "prefix":"+998",
+            "prefix":"+",
             "unmasked-value":true,
-            "class":"col-6"
+            "class":"col-12"
         },
         "validation": {
             "required": true
@@ -59,7 +59,7 @@
     {
         "type": "select",
         "label": "Region",
-        "name": "Region",
+        "name": "region",
         "order":5,
         "attrs": {
             "placeholder": "Your Region",
@@ -85,8 +85,13 @@
                     "name_uz": "Jizzax viloyati",
                     "name_uzc": "Жиззах вилояти",
                     "name_ru": "Джизакская область"
+                },
+                {
+                    "id": 4,
+                    "name_uz": "Qashqadaryo viloyati",
+                    "name_uzc": "Қашқадарё вилояти",
+                    "name_ru": "Кашкадарьинская область"
                 }
-
             ]
         },
         "validation": {
@@ -96,7 +101,7 @@
     {
         "type": "select",
         "label": "District",
-        "name": "District",
+        "name": "district",
         "order":6,
         "attrs": {
             "placeholder": "Your District",
@@ -127,13 +132,6 @@
                     "name_ru": "Балыкчинский район"
                 },
                 {
-                       "id": 27,
-                      "region_id": 3,
-                       "name_uz": "Baxmal tumani",
-                       "name_uzc": "Бахмал тумани",
-                         "name_ru": "Бахмальский район"
-                },
-                {
                     "id": 195,
                     "region_id": 3,
                     "name_uz": "Jizzax tumani",
@@ -158,7 +156,7 @@
     {
         "type": "radio",
         "label": "What is your level?",
-        "name": "Level",
+        "name": "level",
         "order":7,
         "attrs": {
             "class":"col-12",
@@ -184,7 +182,7 @@
     {
         "type": "checkbox",
         "label": "Which ones do you know?",
-        "name": "Skills",
+        "name": "skills",
         "order":8,
         "attrs": {
             "class":"col-12",
@@ -194,7 +192,7 @@
                     "value": "html"
                 },
                 {
-                    "label": "Css",
+                    "label": "CSS",
                     "value": "css"
                 },
                 {
@@ -202,7 +200,7 @@
                     "value": "javascript"
                 },
                 {
-                    "label": "TypeScript",
+                    "label": "Typescript",
                     "value": "typescript"
                 },
                 {
@@ -210,24 +208,12 @@
                     "value": "vue"
                 },
                 {
-                    "label": "React.Js",
+                    "label": "React",
                     "value": "react"
                 },
                 {
-                    "label": "Angular.Js",
+                    "label": "Angular",
                     "value": "angular"
-                },
-                {
-                    "label": "Redux",
-                    "value": "redux"
-                },
-                {
-                    "label": "Mobx",
-                    "value": "mobx"
-                },
-                {
-                    "label": "Pinia",
-                    "value": "pinia"
                 }
             ]
         },
@@ -238,11 +224,11 @@
     },
     {
         "type": "textarea",
-        "label": "Please write more information about yourself",
-        "name": "Comment",
+        "label": "Write about yourself?",
+        "name": "comment",
         "order":9,
         "attrs": {
-            "placeholder": "",
+            "placeholder": "Write...",
             "class":"col-12"
         },
         "validation": {
