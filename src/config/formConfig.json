@@ -20,7 +20,7 @@
         "order":3,
         "attrs": {
             "placeholder": "Your Email",
-            "class":"col-12"
+            "class":"col-6"
         },
         "validation": {
             "required": true,
@@ -47,10 +47,10 @@
         "order":4,
         "attrs": {
             "placeholder": "Your Contact",
-            "mask":"### (##) ### ## ##",
-            "prefix":"+",
+            "mask":"(##) ### ## ##",
+            "prefix":"+998",
             "unmasked-value":true,
-            "class":"col-12"
+            "class":"col-6"
         },
         "validation": {
             "required": true
