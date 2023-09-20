@@ -1,0 +1,49 @@
+[
+    {
+        "type": "text",
+        "label": "Text",
+        "attrs": {
+            "placeholder": "First name"
+        }
+    },
+    {
+        "type": "select",
+        "label": "Select",
+        "attrs": {
+            "placeholder": "Select",
+            "options": []
+        }
+    },
+    {
+        "type": "radio",
+        "label": "Radio",
+        "attrs": {
+            "options": [
+                {
+                    "label": "Option 1",
+                    "value": "opt1"
+                }
+            ]
+        }
+    },
+    {
+        "type": "checkbox",
+        "label": "Checkbox",
+        "attrs": {
+            "options": [
+                {
+                    "label": "Option 1",
+                    "value": "opt1"
+                }
+            ]
+        }
+    },
+    {
+        "type": "textarea",
+        "label": "Textarea",
+        "attrs": {
+            "placeholder": "Textarea",
+            "rows":2
+        }
+    }
+]
