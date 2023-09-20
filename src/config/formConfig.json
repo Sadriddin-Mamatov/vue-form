@@ -3,7 +3,7 @@
     {
         "type": "text",
         "label": "Last name",
-        "name": "lastname",
+        "name": "Lastname",
         "order":2,
         "attrs": {
             "placeholder": "Enter your last name",
@@ -16,11 +16,11 @@
     {
         "type": "text",
         "label": "Your Email",
-        "name": "email",
+        "name": "Email",
         "order":3,
         "attrs": {
             "placeholder": "Enter your email",
-            "class":"col-12"
+            "class":"col-6"
         },
         "validation": {
             "required": true,
@@ -30,7 +30,7 @@
     {
         "type": "text",
         "label": "First name",
-        "name": "firstname",
+        "name": "Firstname",
         "order":1,
         "attrs": {
             "placeholder": "Enter your first name",
@@ -50,7 +50,7 @@
             "mask":"### (##) ### ## ##",
             "prefix":"+998",
             "unmasked-value":true,
-            "class":"col-12"
+            "class":"col-6"
         },
         "validation": {
             "required": true
@@ -71,27 +71,22 @@
                 {
                     "id": 1,
                     "name_uz": "Andijon viloyati",
-                    "name_uzCr": "Андижон вилояти",
+                    "name_uzc": "Андижон вилояти",
                     "name_ru": "Андижанская область"
                 },
                 {
                     "id": 2,
                     "name_uz": "Buxoro viloyati",
-                    "name_uzCr": "Бухоро вилояти",
+                    "name_uzc": "Бухоро вилояти",
                     "name_ru": "Бухарская область"
                 },
                 {
                     "id": 3,
                     "name_uz": "Jizzax viloyati",
-                    "name_uzCr": "Жиззах вилояти",
+                    "name_uzc": "Жиззах вилояти",
                     "name_ru": "Джизакская область"
-                },
-                {
-                    "id": 4,
-                    "name_uz": "Navoiy viloyati",
-                    "name_uzCr": "Навоий вилояти",
-                    "name_ru": "Навоийская область"
                 }
+
             ]
         },
         "validation": {
@@ -101,7 +96,7 @@
     {
         "type": "select",
         "label": "District",
-        "name": "district",
+        "name": "District",
         "order":6,
         "attrs": {
             "placeholder": "Your District",
@@ -112,45 +107,45 @@
             "options": [
                 {
                     "id": 1,
-                    "regionId": 1,
+                    "region_id": 1,
                     "name_uz": "Oltinko'l tumani",
-                    "name_uzCr": "Олтинкўл тумани",
+                    "name_uzc": "Олтинкўл тумани",
                     "name_ru": "Алтынкульский район"
                 },
                 {
                     "id": 2,
-                    "regionId": 1,
+                    "region_id": 1,
                     "name_uz": "Andijon tumani",
-                    "name_uzCr": "Андижон тумани",
+                    "name_uzc": "Андижон тумани",
                     "name_ru": "Андижанский район"
                 },
                 {
                     "id": 3,
-                    "regionId": 1,
+                    "region_id": 1,
                     "name_uz": "Baliqchi tumani",
-                    "name_uzCr": "Балиқчи тумани",
+                    "name_uzc": "Балиқчи тумани",
                     "name_ru": "Балыкчинский район"
                 },
                 {
+                       "id": 27,
+                      "region_id": 3,
+                       "name_uz": "Baxmal tumani",
+                       "name_uzc": "Бахмал тумани",
+                         "name_ru": "Бахмальский район"
+                },
+                {
                     "id": 195,
-                    "regionId": 3,
+                    "region_id": 3,
                     "name_uz": "Jizzax tumani",
-                    "name_uzCr": "Жиззах тумани",
+                    "name_uzc": "Жиззах тумани",
                     "name_ru": "Джизакский район"
                 },
                 {
                     "id": 196,
-                    "regionId": 3,
+                    "region_id": 3,
                     "name_uz": "Jizzax shahri",
-                    "name_uzCr": "Жиззах шаҳри",
+                    "name_uzc": "Жиззах шаҳри",
                     "name_ru": "г. Джизак"
-                },
-                {
-                    "id": 197,
-                    "regionId": 3,
-                    "name_uz": "Baxmal tumani",
-                    "name_uzCr": "Бахмал тумани",
-                    "name_ru": "Бахмальский район"
                 }
             ]
         },
@@ -163,7 +158,7 @@
     {
         "type": "radio",
         "label": "What is your level?",
-        "name": "level",
+        "name": "Level",
         "order":7,
         "attrs": {
             "class":"col-12",
@@ -189,7 +184,7 @@
     {
         "type": "checkbox",
         "label": "Which ones do you know?",
-        "name": "skills",
+        "name": "Skills",
         "order":8,
         "attrs": {
             "class":"col-12",
@@ -244,7 +239,7 @@
     {
         "type": "textarea",
         "label": "Please write more information about yourself",
-        "name": "comment",
+        "name": "Comment",
         "order":9,
         "attrs": {
             "placeholder": "Write here...",

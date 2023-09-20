@@ -1,15 +1,15 @@
 <template>
 	<div class="form-settings q-pa-md">
-		<VueDraggableNext v-model="settings" class="q-col-gutter-y-sm" handle=".handle" @end="endDrag">
+		<VueDraggableNext v-model="settings" class="q-col-gutter-y-sm wrapper-content" handle=".handle" @end="endDrag">
 			<transition-group>
-				<div v-for="(field, i) in settings" :key="i">
+				<div v-for="(field, i) in settings" :key="i" class="wrap">
 					<ComponentCard
 						:type="field.type"
 						style="box-shadow: none; border-style: dashed; cursor: default"
 						:class="field.name ? 'positive' : 'negative'"
 					>
 						<template #header>
-							<q-avatar color="grey-3" text-color="grey">
+							<q-avatar color="grey-6" text-color="white">
 								{{ field.order }}
 							</q-avatar>
 							<q-btn
@@ -17,23 +17,23 @@
 								color="positive"
 								round
 								unelevated
-								class="handle bg-grey-2 text-grey float-right"
-								style="cursor: grab"
+								class="handle bg-grey-6 text-white float-right"
+								style="cursor: pointer"
 							></q-btn>
 							<q-btn
-								icon="settings"
+								icon="edit"
 								color="primary"
 								round
 								unelevated
-								class="bg-green-2 text-blue-12 q-mx-xs float-right"
+								class="bg-warning-2 text-white-12 q-mx-xs float-right"
 								@click="openSetting(field)"
 							></q-btn>
 							<q-btn
-								icon="close"
+								icon="delete"
 								color="negative"
 								round
 								unelevated
-								class="bg-red-2 text-red float-right"
+								class="bg-red-4 text-white float-right"
 								@click="removeField(i)"
 							></q-btn>
 						</template>
@@ -41,7 +41,7 @@
 							<q-item-label class="q-pb-sm">
 								<q-icon
 									:name="field.name ? 'verified' : 'error_outline'"
-									:color="field.name ? 'positive' : 'negative'"
+									:color="field.name ? 'cyan' : 'negative'"
 								/>
 								{{ field.name }}
 							</q-item-label>
@@ -94,7 +94,7 @@
 	</q-dialog>
 </template>
 
-<script lang="ts" setup>
+<script  setup lang="ts">
 import { COMPONENT_MAP_TYPES, getComponent } from './ComponentTypes';
 import ComponentCard from 'src/components/Card/ComponentCard.vue';
 import { VueDraggableNext } from 'vue-draggable-next';
@@ -104,7 +104,7 @@ import { computed, ref } from 'vue';
 const props = defineProps<{ formConfig: FieldInterface[] }>();
 const emit = defineEmits(['update:config']);
 const classes = [
-	{ label: 'col-full-12', value: 'col-12' },
+	{ label: 'col-12', value: 'col-12' },
 	{ label: 'col-6', value: 'col-6' },
 	{ label: 'col-3', value: 'col-3' },
 ];
@@ -152,10 +152,11 @@ const saveSettings = () => {
 };
 </script>
 
-<style>
+<style scoped>
 .form-settings {
 	background-image: radial-gradient(#f1f1f1 1px, transparent 0);
 	background-size: 20px 20px;
 	min-height: calc(100vh - 51px);
 }
+
 </style>

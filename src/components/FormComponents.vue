@@ -10,11 +10,11 @@
 			<ComponentCard :type="comp.type">
 				<template #header>
 					<div class="flex justify-between items-center">
-						<q-avatar size="xl" color="grey-3" text-color="grey" icon="grid_view" />
+						<q-avatar size="xl" color="cyan-3" text-color="white" icon="grid_view" />
 						<q-btn
 							icon="add"
 							unelevated
-							class="bg-grey-3 text-grey q-pa-sm q-py-xs"
+							class="bg-cyan-3 text-white q-pa-sm q-py-xs"
 							@click="addField(comp)"
 						/>
 					</div>

@@ -17,7 +17,7 @@
 	/>
 </template>
 
-<script lang="ts" setup>
+<script  setup lang="ts">
 import { QSelect } from 'quasar';
 import { computed, ref } from 'vue';
 const props =
@@ -32,6 +32,7 @@ const props =
 defineEmits(['update:modelValue']);
 
 const optionsComp = computed(() => {
+
 	if (props.parentId && props.parentKey) {
 		return props.options?.filter((e) => e[props.parentKey!] == props.parentId) as any[];
 	}

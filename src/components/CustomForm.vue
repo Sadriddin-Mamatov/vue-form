@@ -57,7 +57,7 @@ const addField = (field: FieldInterface) => {
 		...field,
 		order,
 		id: uuidv4(),
-		attrs: { ...field.attrs, class: 'col-12' },
+		attrs: { ...field.attrs, class: 'col-6' },
 		name: 'field' + order,
 	};
 	if (newField.type == 'select') {
@@ -65,7 +65,7 @@ const addField = (field: FieldInterface) => {
 			...newField.attrs,
 			options: [
 				{
-					label: 'Option qoshildi',
+					label: 'Option qushildi',
 					value: 'opt1',
 				},
 			],

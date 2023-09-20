@@ -27,7 +27,7 @@ defineProps<{ type: string }>();
 	cursor: grab;
 	&:hover {
 		border: 1px solid #bdbdbd;
-		box-shadow: 0 0 0.5rem #e5e5e5;
+		box-shadow: 0 0 0.4rem #e5e5e5;
 	}
 	&.positive{
 		border-color: $positive;

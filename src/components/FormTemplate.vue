@@ -5,7 +5,7 @@
 				<Component
 					:is="field.component"
 					v-model="formData[field.name]"
-					v-bind="{ ...field.attrs, ...getComponentFieldMeta(field) }"
+					v-bind="{ ...field.attrs, ...getComponentField(field) }"
 					:type="field.type"
 					:parentId="formData[field.attrs.parent]"
 					:parentKey="field.attrs.parent + '_id'"
@@ -21,7 +21,7 @@
 				<Component
 					:is="field.component"
 					v-model="formData[field.name]"
-					v-bind="{ ...field.attrs, ...getComponentFieldMeta(field) }"
+					v-bind="{ ...field.attrs, ...getComponentField(field) }"
 					:type="field.type"
 					@update:modelValue="
 						updateField({
@@ -33,7 +33,7 @@
 			</template>
 		</template>
 		<div class="flex justify-end">
-			<q-btn type="submit" label="Submit" color="primary" unelevated no-caps />
+			<q-btn type="submit" label="Submit" color="grey" unelevated no-caps />
 		</div>
 	</form>
 
@@ -55,14 +55,10 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue';
 import { storeToRefs } from 'pinia';
-// Pinia store
 import { useFormStore } from 'src/stores/Store';
-// types
 import { FieldInterface } from 'src/types/form';
-// utilities
 import { pick } from 'src/utilities/index.ts';
 
-// Expected props from parent
 const props = withDefaults(
 	defineProps<{
 		formFields: FieldInterface[];
@@ -75,18 +71,17 @@ const props = withDefaults(
 const dialog = ref(false);
 const fields = computed(() => props.formFields.sort((a, b) => a.order - b.order));
 
-function getComponentFieldMeta(field: FieldInterface) {
+function getComponentField(field: FieldInterface) {
 	return {
 		...pick(field, ['name', 'validation', 'type', 'text', 'label']),
 	};
 }
 
-// Pinia
+// Pinia store
 const store = useFormStore();
 const { formData } = storeToRefs(store);
 const updateField = (payload: { key: string; value: string }) => {
 	store.$patch((state) => {
-		// @ts-ignore
 		state.formData[payload.key] = payload.value;
 	});
 };
