@@ -242,7 +242,7 @@
         "name": "Comment",
         "order":9,
         "attrs": {
-            "placeholder": "Write here...",
+            "placeholder": "",
             "class":"col-12"
         },
         "validation": {
