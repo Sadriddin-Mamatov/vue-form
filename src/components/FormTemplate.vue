@@ -58,7 +58,7 @@ import { storeToRefs } from 'pinia';
 // Pinia store
 import { useFormStore } from 'src/stores/Store';
 // types
-import { FieldInterface } from 'src/@types/form';
+import { FieldInterface } from 'src/types/form';
 // utilities
 import { pick } from 'src/utilities/index.ts';
 

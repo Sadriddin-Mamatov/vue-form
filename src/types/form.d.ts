@@ -14,7 +14,7 @@ export interface Validation {
 }
 
 export interface FieldInterface {
-    id:string; // uuid
+    id:string;
     type: COMPONENT_TYPES;
     name: string;
     label?: string;

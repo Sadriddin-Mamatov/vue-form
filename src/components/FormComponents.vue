@@ -39,7 +39,7 @@ import { computed, ref } from 'vue';
 import { COMPONENT_MAP_TYPES, getComponent } from './ComponentTypes';
 import components from 'src/config/components.json';
 import ComponentCard from 'src/components/Card/ComponentCard.vue';
-import { FieldInterface } from 'src/@types/form';
+import { FieldInterface } from 'src/types/form';
 
 const emit = defineEmits(['addField']);
 

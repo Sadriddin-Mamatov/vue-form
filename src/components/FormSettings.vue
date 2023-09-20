@@ -98,7 +98,7 @@
 import { COMPONENT_MAP_TYPES, getComponent } from './ComponentTypes';
 import ComponentCard from 'src/components/Card/ComponentCard.vue';
 import { VueDraggableNext } from 'vue-draggable-next';
-import { FieldInterface } from 'src/@types/form';
+import { FieldInterface } from 'src/types/form';
 import { computed, ref } from 'vue';
 
 const props = defineProps<{ formConfig: FieldInterface[] }>();

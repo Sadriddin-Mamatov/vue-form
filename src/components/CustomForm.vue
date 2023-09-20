@@ -46,7 +46,7 @@ import FormSettings from './FormSettings.vue';
 // config
 import formConfig from 'src/config/formConfig.json';
 // types
-import { FieldInterface } from 'src/@types/form';
+import { FieldInterface } from 'src/types/form';
 
 const settingRef = ref<typeof FormSettings | null>(null);
 const config = ref([...(formConfig.map((e) => ({ ...e, id: uuidv4() })) as FieldInterface[])]);

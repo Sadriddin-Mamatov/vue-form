@@ -5,7 +5,7 @@
 <script  setup lang="ts">
 import { getComponent } from './ComponentTypes';
 import { useFormStore } from 'src/stores/Store';
-import { FieldInterface } from 'src/@types/form';
+import { FieldInterface } from 'src/types/form';
 import FormTemplateVue from './FormTemplate.vue';
 import { computed } from 'vue';
 
